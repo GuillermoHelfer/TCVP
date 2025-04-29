@@ -1,0 +1,39 @@
+para probar que un problema es np dificil hay que hacer una reduccion de LD //subset_of NP-c hacia LD' //subset_of NP-c
+
+para probar que CV es NP-c haremos una reducc de 3-SAT a CV
+
+para demostrar que una reduccion es total computable > que para una entrada genera una salida (que termina)
+
+correctitud > para todo elemento que esta dentro del lenguaje genera una funcion que esta dentro del lenguaje y que para todo
+elemento que este fuera del lenguaje genera una funcion que esta fuera del lenguaje
+
+para resolver un ejercicio del examen es importante conocer la jerarquia de dificultad de varios lenguajes
+
+EJ1:
+	a) probar eso mismo aplicando la definicion de (vigo?)
+	b) aplicar la definicion de (vigo)? y de d-time
+	c) 
+	d) 
+	e) 
+	f) 
+	g) 
+	h) 
+	i) 
+	j) 
+	
+EJ2: por que puedo construir una maquina que resuelve ese problema en tiempo polinomial (restriccion de variables esta la clave)
+
+EJ3: mostrar que no puedo verificar ese certificado en tiempo y espacio polinomial. como la verificacion del certificado no suscinto
+	ESPACIO EXPONENCIAL IMPLICA TIEMPO POLINOMIAL
+	
+EJ4:
+
+EJ5: (reforzar los conceptos de NP-completitud)
+	a) reduccion sencilla pero tiene una complejidad en encontrar.
+	b)
+	c) 
+	
+	
+EJ6: si recibo un grafo que tiene un camino de ham tengo que devolver un circuito de hamilton
+
+EJ7: 
