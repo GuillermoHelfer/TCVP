@@ -1,0 +1,114 @@
+EXPL teoria 10:
+
+un estado Q es una imagen de la ejecucuon de un programa
+	-> por eso decimos que a partir de un estado se satisface o no un 
+	resultado (satisface una pre y post condicion)
+	
+	-> estados true y false ayudan a demostrar verificaciones mas adelant
+	-> regla sintactica: exijen un matcheo exacto de simbolos
+	
+	-> si con p S1 llegamos a r y con r S1 llegamos a q, entonces con p S1;S2 llegamos a q
+	
+
+EJEMPLOS:
+	A partir de la demostracion con el invariable y B podemos llegar a:
+1) Si partiendo de x>0 termino con que x>0
+	si fuera true, no siempre se cumple porque este programa puede
+		no terminar nunca, por eso no puede ni siquiera tomar un estado true
+	
+2)	Si al final no satisface q entonces por definicion no puede ser p el inicial
+	
+	b) esto es sintactico
+	
+3) 	y=y implica 'true'
+
+4) 	X es una x freezeada que no se puede modificar, no actua como variable
+
+5) 	CUAL ES EL PROBLEMA? 
+	
+	que en el primer caso, si x valiera 2, entonces las proximas dos serian
+		falsas y por lo tanto el problama haria otra cosa que no es lo que 
+		se buscaba
+		(no alcanza con decir que y=1 y tal otra sino que ademas se necesita
+		que:
+		se puede modificar la variable, no se sabe
+		si el programa resolvio el problema en base a la entrada.
+	
+6)
+	como buscar un invariante? algo que yo ponga al lado del invariante
+		en una condicion de un while: generalmente me da la respuesta
+		que busco.
+	
+/////////////////////////////////////////////////////////////////////////
+
+EXPL trabajo 4:
+-repaso de complejidad espcial y como se relaciona con la comp temporal.
+
+-los problemas de busqueda no representan mayor dificultad que los
+de decision.
+
+si un problema de decision esta en P, su variante de busqueda esta en P
+
+///////////////////////////////////////////////////////
+
+1.b) 
+	- pq si se mueve de a 1 y ecribe de a 1, a lo sumo tarda poly(n)
+	- pq cuando se toman todas las configuraciones en cuenta, nos da una 
+		combinatoria que es una constante elevado a la n.
+	en un vector || || || || || || || (7 elementos)
+		7 * |q| * |Eestrella| * |C|
+		
+1.c) si yo trabajo en espacio logaritmico, los poly(n) se convierten en log(n)
+		la explicacion es que la funcion exp y la log son inversas
+		
+1.d) QSAT= 
+	por que algo no perteneceria a P?
+	si yo lo quisiera resolver a fuerza bruta observando todas las posibles
+	soluciones, llevaria tiempo exponencial.
+		si yo viera el espacio de soluciones
+	del problema, si lo quisiera resolver ocuparia tiempo exponencial.
+	para que no pertenezca a NP hay que demostrar que no hay un certificado
+	que a partir de una entrada se pueda resolver el problema en tiempo poly
+	
+1.2
+a) 
+
+b)
+
+1.3
+a) 
+b) si los certificados son exponencial, cuanto tiempo lleva verificarlos? -> exp
+
+2.1)
+	si tengo una maquna que me dice si o no en tiempo poly, hacer otra que
+	responda si o no usando la anterior, sale intuitivamente.
+	
+2.2)
+	si tengo uno que me da la solucion, necesito otra maquina que me diga
+	la solucion con una pregunta o complejidad mas. cto mas ocupa ese extra?
+	(sigue siendo poly(n)??)
+	
+2.3)
+	
+	
+3.2)
+	ver las teorias y buscar con que matchean estos problemas
+	
+4.2)
+	Si algo esta en P, por definicion se tiene que esta contendido en tal
+	y ademas asi.
+	Para demostrar pertenencia a conjuntos decimos, que si tenemos una mt
+	que decide en p, siempre tendriamos una mt zpp que decida con al menos
+	tanta probabilidad lo que la hace pertenecer y ademas esa esta
+	contenida en otra
+
+4.3) es una forma de modelar un proceso probabilistico
+		es puramente en palabras lo que hay que decir
+		(A tendria que tener mucha suerte adivinando para que 
+		sea cierto) (quE tendria que pasar para que suceda)
+		(hacer muchas pruebas???)
+		
+5.1)
+	seguir el ejemplo tal cual como esta en la teoria
+	(es simplemente para que veamos como funciona)
+
