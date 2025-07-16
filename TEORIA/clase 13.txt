@@ -1,0 +1,25 @@
+TEORIA 13 - Verificacion de Programas Concurrentes
+
+(03) en los while, el await en ambos en atomico
+
+cada prueba debe ser de libre interferencia de las otras
+
+la proof outline es la base de todo, a partir de esta es que
+se prueban las propiedades.
+
+(14) prohibido usar variables auxiliares en las invariantes
+
+(16) en este modelo las verificaciones son mas legibles
+
+(20) que indica la funcion invariante T? el tope maximo de interacciones
+		-> que valor le ponemos? hay que asumirlo.
+
+
+anexo:
+como pruebo que no haya inanicion o starvation?
+		-> con un invariante que se decremente asegurando acceso
+		
+como pruebo que no haya interferencia
+		-> con safety. haciendo un prof outline de cada seccion conflictiva
+		
+**

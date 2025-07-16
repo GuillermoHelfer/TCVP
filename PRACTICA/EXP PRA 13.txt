@@ -1,0 +1,29 @@
+Ej1:
+	- casos base: 0, 1; x es la variable
+	- el conjunto var(x) es x
+	- e1 y e2 son expresiones que pueden contener cualq cosa (definir IND)
+	- va a depender de las operaciones entre conjuntos con e1 y e2
+	
+Ej2:
+	
+	
+Ej3: 
+	- tiene que ver con agregar una induccion mas para que se acople al
+		while (ESTO NO QUEDO CLARO SI ERA PARA ESTE EJERCICIO)
+		
+Ej4:
+	- significa que: q puede ser cualq cosa
+	- es como decir falso implica cualquier cosa
+	- demostrar con el metodo H
+	
+Ej5:
+	- traduccion del punto: hay que probar el sii del medio
+	- hay que demostrarlo para ambos lados
+	- si para todo estdo c/ vez que yo arranco desde ese, termino siempre
+		en en el mismo estado; para toda pre y pos cond, si se cumple
+		a partir de cond P S1 entonces pasa S2 y viceversa.
+	- a grandes rasgos lo que se dice es que dos programas funcionan
+		de la misma manera
+		
+Ej6:
+	- recordar que el sii se resuelve hacia un lado y hacia el otro
